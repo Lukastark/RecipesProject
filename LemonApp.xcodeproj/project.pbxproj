@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2489DB901CE8CB2500064A37 /* Kruasani-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2489DB8F1CE8CB2500064A37 /* Kruasani-m.mp3 */; };
+		2489DB921CE8CB3F00064A37 /* Blomanje-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2489DB911CE8CB3F00064A37 /* Blomanje-m.mp3 */; };
+		2489DB941CE8CB4900064A37 /* Brauni-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2489DB931CE8CB4900064A37 /* Brauni-m.mp3 */; };
+		2489DB961CE8CB5600064A37 /* Keqsi-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2489DB951CE8CB5600064A37 /* Keqsi-m.mp3 */; };
+		2489DB981CE8CB5F00064A37 /* CHeesecake-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2489DB971CE8CB5F00064A37 /* CHeesecake-m.mp3 */; };
+		2489DB9A1CE8CB6800064A37 /* Ekleri-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2489DB991CE8CB6800064A37 /* Ekleri-m.mp3 */; };
+		2489DB9C1CE8CB8800064A37 /* Ruleti-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2489DB9B1CE8CB8800064A37 /* Ruleti-m.mp3 */; };
+		24A663BA1CD4C74F000DD68E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A663B91CD4C74F000DD68E /* AVFoundation.framework */; };
+		24D4915C1CE86EFD005A0DF3 /* Instruqcia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24D4915B1CE86EFD005A0DF3 /* Instruqcia.mp3 */; };
+		24D491671CE870AA005A0DF3 /* Gozinayi-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24D4915D1CE870AA005A0DF3 /* Gozinayi-m.mp3 */; };
+		24D491681CE870AA005A0DF3 /* Kakao-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24D4915E1CE870AA005A0DF3 /* Kakao-m.mp3 */; };
+		24D491691CE870AA005A0DF3 /* Kapuchino-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24D4915F1CE870AA005A0DF3 /* Kapuchino-m.mp3 */; };
+		24D4916A1CE870AA005A0DF3 /* Katleti-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24D491601CE870AA005A0DF3 /* Katleti-m.mp3 */; };
+		24D4916B1CE870AA005A0DF3 /* Mapini-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24D491611CE870AA005A0DF3 /* Mapini-m.mp3 */; };
+		24D4916C1CE870AA005A0DF3 /* Mohito-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24D491621CE870AA005A0DF3 /* Mohito-m.mp3 */; };
+		24D4916D1CE870AA005A0DF3 /* Rapaelo-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24D491631CE870AA005A0DF3 /* Rapaelo-m.mp3 */; };
+		24D4916E1CE870AA005A0DF3 /* Shokmanje-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24D491641CE870AA005A0DF3 /* Shokmanje-m.mp3 */; };
+		24D4916F1CE870AA005A0DF3 /* Spageti-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24D491651CE870AA005A0DF3 /* Spageti-m.mp3 */; };
+		24D491701CE870AA005A0DF3 /* Tiramisu-m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 24D491661CE870AA005A0DF3 /* Tiramisu-m.mp3 */; };
+		24F72A6A1CE322C600F32E00 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24F72A691CE322C600F32E00 /* CoreMotion.framework */; };
+		335934971CAEFF920008C33D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 335934961CAEFF920008C33D /* main.m */; };
+		3359349A1CAEFF920008C33D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 335934991CAEFF920008C33D /* AppDelegate.m */; };
+		335934A01CAEFF930008C33D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3359349E1CAEFF930008C33D /* Main.storyboard */; };
+		335934A21CAEFF930008C33D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335934A11CAEFF930008C33D /* Assets.xcassets */; };
+		335934AE1CAF05BD0008C33D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335934AD1CAF05BD0008C33D /* MainViewController.m */; };
+		335934B11CB016CF0008C33D /* ItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 335934B01CB016CF0008C33D /* ItemCollectionViewCell.m */; };
+		335934B71CB11E480008C33D /* Dishes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 335934B61CB11E480008C33D /* Dishes.plist */; };
+		3F164DD71CB1751D00DF25F5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F164DD61CB1751D00DF25F5 /* DetailViewController.m */; };
+		3F164DD91CB17D7A00DF25F5 /* Drinks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F164DD81CB17D7A00DF25F5 /* Drinks.plist */; };
+		B1D4C1211CB5953A009D8A89 /* Deserts.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1D4C1201CB5953A009D8A89 /* Deserts.plist */; };
+		B1ECCADC1CB32A0700090DB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1ECCADB1CB32A0700090DB1 /* LaunchScreen.xib */; };
+		E31006DB1CE65B2A0071FECB /* Mybutton.m in Sources */ = {isa = PBXBuildFile; fileRef = E31006DA1CE65B2A0071FECB /* Mybutton.m */; };
+		E36B1FFB1CE778DB00367C68 /* blinebi-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FE51CE778DB00367C68 /* blinebi-s.mp3 */; };
+		E36B1FFC1CE778DB00367C68 /* blomanje-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FE61CE778DB00367C68 /* blomanje-s.mp3 */; };
+		E36B1FFD1CE778DB00367C68 /* cheesecake-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FE71CE778DB00367C68 /* cheesecake-s.mp3 */; };
+		E36B1FFE1CE778DB00367C68 /* deserti-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FE81CE778DB00367C68 /* deserti-s.mp3 */; };
+		E36B1FFF1CE778DB00367C68 /* ekleri-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FE91CE778DB00367C68 /* ekleri-s.mp3 */; };
+		E36B20001CE778DB00367C68 /* gozinayi-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FEA1CE778DB00367C68 /* gozinayi-s.mp3 */; };
+		E36B20011CE778DB00367C68 /* kakao-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FEB1CE778DB00367C68 /* kakao-s.mp3 */; };
+		E36B20021CE778DB00367C68 /* kapuchino-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FEC1CE778DB00367C68 /* kapuchino-s.mp3 */; };
+		E36B20031CE778DB00367C68 /* katleti-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FED1CE778DB00367C68 /* katleti-s.mp3 */; };
+		E36B20041CE778DB00367C68 /* keqsi-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FEE1CE778DB00367C68 /* keqsi-s.mp3 */; };
+		E36B20051CE778DB00367C68 /* kerdzebi-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FEF1CE778DB00367C68 /* kerdzebi-s.mp3 */; };
+		E36B20061CE778DB00367C68 /* kruasani-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FF01CE778DB00367C68 /* kruasani-s.mp3 */; };
+		E36B20071CE778DB00367C68 /* mafini-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FF11CE778DB00367C68 /* mafini-s.mp3 */; };
+		E36B20081CE778DB00367C68 /* mohito-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FF21CE778DB00367C68 /* mohito-s.mp3 */; };
+		E36B20091CE778DB00367C68 /* rafaelo-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FF31CE778DB00367C68 /* rafaelo-s.mp3 */; };
+		E36B200A1CE778DB00367C68 /* ruleti-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FF41CE778DB00367C68 /* ruleti-s.mp3 */; };
+		E36B200B1CE778DB00367C68 /* sasmelebi-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FF51CE778DB00367C68 /* sasmelebi-s.mp3 */; };
+		E36B200C1CE778DB00367C68 /* shokmanje-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FF61CE778DB00367C68 /* shokmanje-s.mp3 */; };
+		E36B200D1CE778DB00367C68 /* spagetti-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FF71CE778DB00367C68 /* spagetti-s.mp3 */; };
+		E36B200E1CE778DB00367C68 /* tiramisu-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FF81CE778DB00367C68 /* tiramisu-s.mp3 */; };
+		E36B200F1CE778DB00367C68 /* yvela-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FF91CE778DB00367C68 /* yvela-s.mp3 */; };
+		E36B20101CE778DB00367C68 /* brauni-s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B1FFA1CE778DB00367C68 /* brauni-s.mp3 */; };
+		E36B20131CE7865A00367C68 /* VoiceOverHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E36B20121CE7865A00367C68 /* VoiceOverHelper.m */; };
+		E36B20161CE7896A00367C68 /* MyTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E36B20151CE7896A00367C68 /* MyTextView.m */; };
+		E36B20181CE79FBA00367C68 /* blinebi_m.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E36B20171CE79FBA00367C68 /* blinebi_m.mp3 */; };
+		F228AC151CE3CC4A00392C9D /* MyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F228AC141CE3CC4A00392C9D /* MyLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2489DB8F1CE8CB2500064A37 /* Kruasani-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kruasani-m.mp3"; sourceTree = "<group>"; };
+		2489DB911CE8CB3F00064A37 /* Blomanje-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Blomanje-m.mp3"; sourceTree = "<group>"; };
+		2489DB931CE8CB4900064A37 /* Brauni-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Brauni-m.mp3"; sourceTree = "<group>"; };
+		2489DB951CE8CB5600064A37 /* Keqsi-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Keqsi-m.mp3"; sourceTree = "<group>"; };
+		2489DB971CE8CB5F00064A37 /* CHeesecake-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CHeesecake-m.mp3"; sourceTree = "<group>"; };
+		2489DB991CE8CB6800064A37 /* Ekleri-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ekleri-m.mp3"; sourceTree = "<group>"; };
+		2489DB9B1CE8CB8800064A37 /* Ruleti-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ruleti-m.mp3"; sourceTree = "<group>"; };
+		24A663B91CD4C74F000DD68E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		24D4915B1CE86EFD005A0DF3 /* Instruqcia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Instruqcia.mp3; sourceTree = "<group>"; };
+		24D4915D1CE870AA005A0DF3 /* Gozinayi-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gozinayi-m.mp3"; sourceTree = "<group>"; };
+		24D4915E1CE870AA005A0DF3 /* Kakao-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kakao-m.mp3"; sourceTree = "<group>"; };
+		24D4915F1CE870AA005A0DF3 /* Kapuchino-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kapuchino-m.mp3"; sourceTree = "<group>"; };
+		24D491601CE870AA005A0DF3 /* Katleti-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Katleti-m.mp3"; sourceTree = "<group>"; };
+		24D491611CE870AA005A0DF3 /* Mapini-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mapini-m.mp3"; sourceTree = "<group>"; };
+		24D491621CE870AA005A0DF3 /* Mohito-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mohito-m.mp3"; sourceTree = "<group>"; };
+		24D491631CE870AA005A0DF3 /* Rapaelo-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Rapaelo-m.mp3"; sourceTree = "<group>"; };
+		24D491641CE870AA005A0DF3 /* Shokmanje-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shokmanje-m.mp3"; sourceTree = "<group>"; };
+		24D491651CE870AA005A0DF3 /* Spageti-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Spageti-m.mp3"; sourceTree = "<group>"; };
+		24D491661CE870AA005A0DF3 /* Tiramisu-m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tiramisu-m.mp3"; sourceTree = "<group>"; };
+		24F72A691CE322C600F32E00 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		335934921CAEFF920008C33D /* LemonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		335934961CAEFF920008C33D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		335934981CAEFF920008C33D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		335934991CAEFF920008C33D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3359349F1CAEFF930008C33D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		335934A11CAEFF930008C33D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		335934A61CAEFF930008C33D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335934AC1CAF05BD0008C33D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		335934AD1CAF05BD0008C33D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		335934AF1CB016CF0008C33D /* ItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCollectionViewCell.h; sourceTree = "<group>"; };
+		335934B01CB016CF0008C33D /* ItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCollectionViewCell.m; sourceTree = "<group>"; };
+		335934B61CB11E480008C33D /* Dishes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Dishes.plist; sourceTree = "<group>"; };
+		3F164DD51CB1751D00DF25F5 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ../DetailViewController.h; sourceTree = "<group>"; };
+		3F164DD61CB1751D00DF25F5 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ../DetailViewController.m; sourceTree = "<group>"; };
+		3F164DD81CB17D7A00DF25F5 /* Drinks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Drinks.plist; path = ../Drinks.plist; sourceTree = "<group>"; };
+		B1D4C1201CB5953A009D8A89 /* Deserts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Deserts.plist; sourceTree = "<group>"; };
+		B1ECCADB1CB32A0700090DB1 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		E31006D91CE65B2A0071FECB /* Mybutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mybutton.h; path = ../Mybutton.h; sourceTree = "<group>"; };
+		E31006DA1CE65B2A0071FECB /* Mybutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mybutton.m; path = ../Mybutton.m; sourceTree = "<group>"; };
+		E36B1FE51CE778DB00367C68 /* blinebi-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "blinebi-s.mp3"; sourceTree = "<group>"; };
+		E36B1FE61CE778DB00367C68 /* blomanje-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "blomanje-s.mp3"; sourceTree = "<group>"; };
+		E36B1FE71CE778DB00367C68 /* cheesecake-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cheesecake-s.mp3"; sourceTree = "<group>"; };
+		E36B1FE81CE778DB00367C68 /* deserti-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deserti-s.mp3"; sourceTree = "<group>"; };
+		E36B1FE91CE778DB00367C68 /* ekleri-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ekleri-s.mp3"; sourceTree = "<group>"; };
+		E36B1FEA1CE778DB00367C68 /* gozinayi-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gozinayi-s.mp3"; sourceTree = "<group>"; };
+		E36B1FEB1CE778DB00367C68 /* kakao-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "kakao-s.mp3"; sourceTree = "<group>"; };
+		E36B1FEC1CE778DB00367C68 /* kapuchino-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "kapuchino-s.mp3"; sourceTree = "<group>"; };
+		E36B1FED1CE778DB00367C68 /* katleti-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "katleti-s.mp3"; sourceTree = "<group>"; };
+		E36B1FEE1CE778DB00367C68 /* keqsi-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "keqsi-s.mp3"; sourceTree = "<group>"; };
+		E36B1FEF1CE778DB00367C68 /* kerdzebi-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "kerdzebi-s.mp3"; sourceTree = "<group>"; };
+		E36B1FF01CE778DB00367C68 /* kruasani-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "kruasani-s.mp3"; sourceTree = "<group>"; };
+		E36B1FF11CE778DB00367C68 /* mafini-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mafini-s.mp3"; sourceTree = "<group>"; };
+		E36B1FF21CE778DB00367C68 /* mohito-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mohito-s.mp3"; sourceTree = "<group>"; };
+		E36B1FF31CE778DB00367C68 /* rafaelo-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "rafaelo-s.mp3"; sourceTree = "<group>"; };
+		E36B1FF41CE778DB00367C68 /* ruleti-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ruleti-s.mp3"; sourceTree = "<group>"; };
+		E36B1FF51CE778DB00367C68 /* sasmelebi-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sasmelebi-s.mp3"; sourceTree = "<group>"; };
+		E36B1FF61CE778DB00367C68 /* shokmanje-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shokmanje-s.mp3"; sourceTree = "<group>"; };
+		E36B1FF71CE778DB00367C68 /* spagetti-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "spagetti-s.mp3"; sourceTree = "<group>"; };
+		E36B1FF81CE778DB00367C68 /* tiramisu-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tiramisu-s.mp3"; sourceTree = "<group>"; };
+		E36B1FF91CE778DB00367C68 /* yvela-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "yvela-s.mp3"; sourceTree = "<group>"; };
+		E36B1FFA1CE778DB00367C68 /* brauni-s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "brauni-s.mp3"; sourceTree = "<group>"; };
+		E36B20111CE7865A00367C68 /* VoiceOverHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceOverHelper.h; sourceTree = "<group>"; };
+		E36B20121CE7865A00367C68 /* VoiceOverHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceOverHelper.m; sourceTree = "<group>"; };
+		E36B20141CE7896A00367C68 /* MyTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextView.h; sourceTree = "<group>"; };
+		E36B20151CE7896A00367C68 /* MyTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextView.m; sourceTree = "<group>"; };
+		E36B20171CE79FBA00367C68 /* blinebi_m.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blinebi_m.mp3; sourceTree = "<group>"; };
+		F228AC131CE3CC4A00392C9D /* MyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLabel.h; sourceTree = "<group>"; };
+		F228AC141CE3CC4A00392C9D /* MyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3359348F1CAEFF920008C33D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F72A6A1CE322C600F32E00 /* CoreMotion.framework in Frameworks */,
+				24A663BA1CD4C74F000DD68E /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		335934891CAEFF920008C33D = {
+			isa = PBXGroup;
+			children = (
+				24F72A691CE322C600F32E00 /* CoreMotion.framework */,
+				24A663B91CD4C74F000DD68E /* AVFoundation.framework */,
+				335934941CAEFF920008C33D /* LemonApp */,
+				335934931CAEFF920008C33D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		335934931CAEFF920008C33D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				335934921CAEFF920008C33D /* LemonApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		335934941CAEFF920008C33D /* LemonApp */ = {
+			isa = PBXGroup;
+			children = (
+				335934981CAEFF920008C33D /* AppDelegate.h */,
+				335934991CAEFF920008C33D /* AppDelegate.m */,
+				E36B20111CE7865A00367C68 /* VoiceOverHelper.h */,
+				E36B20121CE7865A00367C68 /* VoiceOverHelper.m */,
+				335934B61CB11E480008C33D /* Dishes.plist */,
+				B1D4C1201CB5953A009D8A89 /* Deserts.plist */,
+				3F164DD81CB17D7A00DF25F5 /* Drinks.plist */,
+				335934AF1CB016CF0008C33D /* ItemCollectionViewCell.h */,
+				335934B01CB016CF0008C33D /* ItemCollectionViewCell.m */,
+				335934AC1CAF05BD0008C33D /* MainViewController.h */,
+				335934AD1CAF05BD0008C33D /* MainViewController.m */,
+				3F164DD51CB1751D00DF25F5 /* DetailViewController.h */,
+				3F164DD61CB1751D00DF25F5 /* DetailViewController.m */,
+				E31006D91CE65B2A0071FECB /* Mybutton.h */,
+				E31006DA1CE65B2A0071FECB /* Mybutton.m */,
+				F228AC131CE3CC4A00392C9D /* MyLabel.h */,
+				F228AC141CE3CC4A00392C9D /* MyLabel.m */,
+				E36B20141CE7896A00367C68 /* MyTextView.h */,
+				E36B20151CE7896A00367C68 /* MyTextView.m */,
+				3359349E1CAEFF930008C33D /* Main.storyboard */,
+				335934A11CAEFF930008C33D /* Assets.xcassets */,
+				B1ECCADB1CB32A0700090DB1 /* LaunchScreen.xib */,
+				335934A61CAEFF930008C33D /* Info.plist */,
+				2489DB9B1CE8CB8800064A37 /* Ruleti-m.mp3 */,
+				2489DB951CE8CB5600064A37 /* Keqsi-m.mp3 */,
+				2489DB991CE8CB6800064A37 /* Ekleri-m.mp3 */,
+				2489DB931CE8CB4900064A37 /* Brauni-m.mp3 */,
+				2489DB911CE8CB3F00064A37 /* Blomanje-m.mp3 */,
+				2489DB971CE8CB5F00064A37 /* CHeesecake-m.mp3 */,
+				2489DB8F1CE8CB2500064A37 /* Kruasani-m.mp3 */,
+				E36B20171CE79FBA00367C68 /* blinebi_m.mp3 */,
+				24D4915D1CE870AA005A0DF3 /* Gozinayi-m.mp3 */,
+				24D4915E1CE870AA005A0DF3 /* Kakao-m.mp3 */,
+				24D4915F1CE870AA005A0DF3 /* Kapuchino-m.mp3 */,
+				24D491601CE870AA005A0DF3 /* Katleti-m.mp3 */,
+				24D491611CE870AA005A0DF3 /* Mapini-m.mp3 */,
+				24D491621CE870AA005A0DF3 /* Mohito-m.mp3 */,
+				24D491631CE870AA005A0DF3 /* Rapaelo-m.mp3 */,
+				24D491641CE870AA005A0DF3 /* Shokmanje-m.mp3 */,
+				24D491651CE870AA005A0DF3 /* Spageti-m.mp3 */,
+				24D491661CE870AA005A0DF3 /* Tiramisu-m.mp3 */,
+				335934951CAEFF920008C33D /* Supporting Files */,
+			);
+			path = LemonApp;
+			sourceTree = "<group>";
+		};
+		335934951CAEFF920008C33D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				335934961CAEFF920008C33D /* main.m */,
+				24D4915B1CE86EFD005A0DF3 /* Instruqcia.mp3 */,
+				E36B1FE51CE778DB00367C68 /* blinebi-s.mp3 */,
+				E36B1FE61CE778DB00367C68 /* blomanje-s.mp3 */,
+				E36B1FE71CE778DB00367C68 /* cheesecake-s.mp3 */,
+				E36B1FE81CE778DB00367C68 /* deserti-s.mp3 */,
+				E36B1FE91CE778DB00367C68 /* ekleri-s.mp3 */,
+				E36B1FEA1CE778DB00367C68 /* gozinayi-s.mp3 */,
+				E36B1FEB1CE778DB00367C68 /* kakao-s.mp3 */,
+				E36B1FEC1CE778DB00367C68 /* kapuchino-s.mp3 */,
+				E36B1FED1CE778DB00367C68 /* katleti-s.mp3 */,
+				E36B1FEE1CE778DB00367C68 /* keqsi-s.mp3 */,
+				E36B1FEF1CE778DB00367C68 /* kerdzebi-s.mp3 */,
+				E36B1FF01CE778DB00367C68 /* kruasani-s.mp3 */,
+				E36B1FF11CE778DB00367C68 /* mafini-s.mp3 */,
+				E36B1FF21CE778DB00367C68 /* mohito-s.mp3 */,
+				E36B1FF31CE778DB00367C68 /* rafaelo-s.mp3 */,
+				E36B1FF41CE778DB00367C68 /* ruleti-s.mp3 */,
+				E36B1FF51CE778DB00367C68 /* sasmelebi-s.mp3 */,
+				E36B1FF61CE778DB00367C68 /* shokmanje-s.mp3 */,
+				E36B1FF71CE778DB00367C68 /* spagetti-s.mp3 */,
+				E36B1FF81CE778DB00367C68 /* tiramisu-s.mp3 */,
+				E36B1FF91CE778DB00367C68 /* yvela-s.mp3 */,
+				E36B1FFA1CE778DB00367C68 /* brauni-s.mp3 */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		335934911CAEFF920008C33D /* LemonApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 335934A91CAEFF930008C33D /* Build configuration list for PBXNativeTarget "LemonApp" */;
+			buildPhases = (
+				3359348E1CAEFF920008C33D /* Sources */,
+				3359348F1CAEFF920008C33D /* Frameworks */,
+				335934901CAEFF920008C33D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LemonApp;
+			productName = LemonApp;
+			productReference = 335934921CAEFF920008C33D /* LemonApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3359348A1CAEFF920008C33D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = InasGroup;
+				TargetAttributes = {
+					335934911CAEFF920008C33D = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6AMKWN45S8;
+					};
+				};
+			};
+			buildConfigurationList = 3359348D1CAEFF920008C33D /* Build configuration list for PBXProject "LemonApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 335934891CAEFF920008C33D;
+			productRefGroup = 335934931CAEFF920008C33D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				335934911CAEFF920008C33D /* LemonApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		335934901CAEFF920008C33D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36B20071CE778DB00367C68 /* mafini-s.mp3 in Resources */,
+				2489DB901CE8CB2500064A37 /* Kruasani-m.mp3 in Resources */,
+				E36B1FFF1CE778DB00367C68 /* ekleri-s.mp3 in Resources */,
+				E36B20101CE778DB00367C68 /* brauni-s.mp3 in Resources */,
+				E36B1FFD1CE778DB00367C68 /* cheesecake-s.mp3 in Resources */,
+				E36B200F1CE778DB00367C68 /* yvela-s.mp3 in Resources */,
+				335934B71CB11E480008C33D /* Dishes.plist in Resources */,
+				E36B1FFB1CE778DB00367C68 /* blinebi-s.mp3 in Resources */,
+				E36B20061CE778DB00367C68 /* kruasani-s.mp3 in Resources */,
+				E36B200E1CE778DB00367C68 /* tiramisu-s.mp3 in Resources */,
+				E36B20091CE778DB00367C68 /* rafaelo-s.mp3 in Resources */,
+				24D491681CE870AA005A0DF3 /* Kakao-m.mp3 in Resources */,
+				2489DB9A1CE8CB6800064A37 /* Ekleri-m.mp3 in Resources */,
+				E36B1FFE1CE778DB00367C68 /* deserti-s.mp3 in Resources */,
+				3F164DD91CB17D7A00DF25F5 /* Drinks.plist in Resources */,
+				2489DB981CE8CB5F00064A37 /* CHeesecake-m.mp3 in Resources */,
+				24D4916B1CE870AA005A0DF3 /* Mapini-m.mp3 in Resources */,
+				24D4916F1CE870AA005A0DF3 /* Spageti-m.mp3 in Resources */,
+				E36B20051CE778DB00367C68 /* kerdzebi-s.mp3 in Resources */,
+				E36B20041CE778DB00367C68 /* keqsi-s.mp3 in Resources */,
+				E36B20181CE79FBA00367C68 /* blinebi_m.mp3 in Resources */,
+				E36B200A1CE778DB00367C68 /* ruleti-s.mp3 in Resources */,
+				E36B20001CE778DB00367C68 /* gozinayi-s.mp3 in Resources */,
+				24D491701CE870AA005A0DF3 /* Tiramisu-m.mp3 in Resources */,
+				B1ECCADC1CB32A0700090DB1 /* LaunchScreen.xib in Resources */,
+				24D4916C1CE870AA005A0DF3 /* Mohito-m.mp3 in Resources */,
+				E36B1FFC1CE778DB00367C68 /* blomanje-s.mp3 in Resources */,
+				E36B20021CE778DB00367C68 /* kapuchino-s.mp3 in Resources */,
+				E36B20011CE778DB00367C68 /* kakao-s.mp3 in Resources */,
+				E36B20031CE778DB00367C68 /* katleti-s.mp3 in Resources */,
+				2489DB941CE8CB4900064A37 /* Brauni-m.mp3 in Resources */,
+				335934A21CAEFF930008C33D /* Assets.xcassets in Resources */,
+				2489DB9C1CE8CB8800064A37 /* Ruleti-m.mp3 in Resources */,
+				335934A01CAEFF930008C33D /* Main.storyboard in Resources */,
+				E36B20081CE778DB00367C68 /* mohito-s.mp3 in Resources */,
+				E36B200C1CE778DB00367C68 /* shokmanje-s.mp3 in Resources */,
+				24D4916D1CE870AA005A0DF3 /* Rapaelo-m.mp3 in Resources */,
+				E36B200D1CE778DB00367C68 /* spagetti-s.mp3 in Resources */,
+				24D4916E1CE870AA005A0DF3 /* Shokmanje-m.mp3 in Resources */,
+				E36B200B1CE778DB00367C68 /* sasmelebi-s.mp3 in Resources */,
+				24D491671CE870AA005A0DF3 /* Gozinayi-m.mp3 in Resources */,
+				24D491691CE870AA005A0DF3 /* Kapuchino-m.mp3 in Resources */,
+				24D4916A1CE870AA005A0DF3 /* Katleti-m.mp3 in Resources */,
+				2489DB961CE8CB5600064A37 /* Keqsi-m.mp3 in Resources */,
+				B1D4C1211CB5953A009D8A89 /* Deserts.plist in Resources */,
+				2489DB921CE8CB3F00064A37 /* Blomanje-m.mp3 in Resources */,
+				24D4915C1CE86EFD005A0DF3 /* Instruqcia.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3359348E1CAEFF920008C33D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E36B20161CE7896A00367C68 /* MyTextView.m in Sources */,
+				F228AC151CE3CC4A00392C9D /* MyLabel.m in Sources */,
+				E31006DB1CE65B2A0071FECB /* Mybutton.m in Sources */,
+				3F164DD71CB1751D00DF25F5 /* DetailViewController.m in Sources */,
+				3359349A1CAEFF920008C33D /* AppDelegate.m in Sources */,
+				335934B11CB016CF0008C33D /* ItemCollectionViewCell.m in Sources */,
+				335934AE1CAF05BD0008C33D /* MainViewController.m in Sources */,
+				E36B20131CE7865A00367C68 /* VoiceOverHelper.m in Sources */,
+				335934971CAEFF920008C33D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3359349E1CAEFF930008C33D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3359349F1CAEFF930008C33D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		335934A71CAEFF930008C33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		335934A81CAEFF930008C33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		335934AA1CAEFF930008C33D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LemonApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ge.edu.trainings.Reciept;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		335934AB1CAEFF930008C33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LemonApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ge.edu.trainings.Reciept;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3359348D1CAEFF920008C33D /* Build configuration list for PBXProject "LemonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335934A71CAEFF930008C33D /* Debug */,
+				335934A81CAEFF930008C33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		335934A91CAEFF930008C33D /* Build configuration list for PBXNativeTarget "LemonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335934AA1CAEFF930008C33D /* Debug */,
+				335934AB1CAEFF930008C33D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3359348A1CAEFF920008C33D /* Project object */;
+}

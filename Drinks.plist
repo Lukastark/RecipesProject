@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>ItemName</key>
+		<string>კაკაო</string>
+		<key>ItemImage</key>
+		<string>cacao.png</string>
+		<key>ItemDescription</key>
+		<string>შემადგენლობა:
+
+40 გრ კაკაო
+4 ჭიქა რძე
+2 ც კვერცხი
+100 გრ შაქარი
+მომზადება:
+
+კვერცხის გულები ავთქვიფოთ შაქართან ერთად. რძე ავადუღოთ და შევურიოთ კაკაო. უკვე გამზადებულ
+
+კაკაოში ჩავამატოთ შაქრიანი კვერცხი. თან განუწყვეტლივ ვურიოთ. ვადუღოთ 2-3 წუთის განმავლობაში</string>
+		<key>ItemVoice</key>
+		<string>kakao-s</string>
+		<key>ItemDescriptionVoice</key>
+		<string>Kakao-m</string>
+	</dict>
+	<dict>
+		<key>ItemName</key>
+		<string>კაპუჩინო</string>
+		<key>ItemImage</key>
+		<string>cappuccino.png</string>
+		<key>ItemDescription</key>
+		<string>დავფქვათ ყავა.შემდეგ მოვადუღოთ დაფქვილი ყავა, მათი მოდუღება შეიძლება სპეციალურ ჭიქებშიც.ჭიქაში ვყრით 2 კოვზ ყავას და ვასხავთ მდუღარე წყალს, ვახურებთ თავსახურს.
+
+ვიღებთ კრემს და ვაცხელებთ, გაცხელების შემდეგ ვასხავთ მიქსერში თავზე ქაფის მისაღებად.
+
+მიღებული ქაფი კოვზის საშუალებით მოვასხათ უკვე მომზადებულ ყავას, დავამატოთ დარიჩინი, შაქარი გემოვნებით და დავტკბეთ მისი არმოატითა და გემოთი</string>
+		<key>ItemVoice</key>
+		<string>kapuchino-s</string>
+		<key>ItemDescriptionVoice</key>
+		<string>Kapuchino-m</string>
+	</dict>
+	<dict>
+		<key>ItemName</key>
+		<string>მოჰიტო</string>
+		<key>ItemImage</key>
+		<string>mohito.jpg</string>
+		<key>ItemDescription</key>
+		<string>კოქტეილი მოჰიტო საკმაოდ პოპულარული სასმელია, მსუბუქი, სასიამოვნო მოტკბო მენთოლის გემოთი. მის მოსამზადებლად დაგჭირდებათ:
+ახალი პიტნა 10 გრ,
+ლაიმი 1 ც,
+ტონიკი 40 მლ,
+შაქრის სიროფი 10 გრ,
+თეთრი რომი 80 გრ და ყინულის ნატეხები.
+
+პიტნის ღერები ჩაჭყლიტეთ მაღალ ჭიქაში შაქართან ერთად, ჩაასხით ლაიმის ან ლიმნის წვენი და რამდენიმე ნაჭერიც ჩააგდეთ შიგნით. პატარა ნატეხებად დატეხეთ ყინული და აავსეთ ჭიქა. შემდეგ ჩაასხით რომი და მოურიეთ, მერე დაამატეთ ტონიკი, გააფრმეთ პიტნის ფოთლებით, ასევე სილამაზისთვის დაამაგრეთ ჭიქას ლიმნის ნაჭერი, ჩადეთ კოქტეილის მილი და მოჰიტოც მზადაა. ეს კოქტეილი უნდა მიირთვათ სანამ ყინული გადნება, რათა გემო არ დაკარგოს.</string>
+		<key>ItemVoice</key>
+		<string>mohito-s</string>
+		<key>ItemDescriptionVoice</key>
+		<string>Mohito-m</string>
+	</dict>
+</array>
+</plist>
